@@ -22,5 +22,5 @@ console.log("La valeur de count est  ",count);
 // Question 2 -
 // que fait la méthode slice
 const arr = [2,3,4,5]
-arr.slice(0,1)
 console.log(arr);
+console.log(arr.slice(0,1)); //[2]
