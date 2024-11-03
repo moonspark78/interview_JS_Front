@@ -42,4 +42,13 @@ const obj ={
     b:7,
 }
 // Whats the output ?
-console.log("is. :  ",obj);
+console.log("is. :  ",obj); // { a: 6, b: 7, c: 3 }
+
+
+
+//Question 4 -
+// Whats the output ?
+console.log(!"hello"); //false psk N'importe quelle chaîne de caractères non vide, comme "hello", "0", ou "false". est VRAI
+console.log(+false); // 0 psk "+" force la conversion en nombre 
+
+
