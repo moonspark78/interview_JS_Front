@@ -1,4 +1,4 @@
-console.log("hello world!");
+//console.log("hello world!");
 
 
 // Question 1 -
@@ -13,7 +13,7 @@ nums.forEach(num=> {
 
 /* Ici la valeur sera "3" parce que elle verifie si "num" est vrai,
  sauf que pour "0"  le premier element vaut "fasle"   */
-console.log("La valeur de count est  ",count);
+//console.log("La valeur de count est  ",count);
 
 
 
@@ -26,7 +26,7 @@ const arr = [2,3,4,5]
 //console.log(arr.slice(0,1)); //[2]
 arr.splice(0,1)
 arr.unshift(8);
-console.log(arr);  //[8,3,4,5]
+//console.log(arr);  //[8,3,4,5]
 
 
 
@@ -42,13 +42,19 @@ const obj ={
     b:7,
 }
 // Whats the output ?
-console.log("is. :  ",obj); // { a: 6, b: 7, c: 3 }
+//console.log("is. :  ",obj); // { a: 6, b: 7, c: 3 }
 
 
 
 //Question 4 -
 // Whats the output ?
-console.log(!"hello"); //false psk N'importe quelle chaîne de caractères non vide, comme "hello", "0", ou "false". est VRAI
-console.log(+false); // 0 psk "+" force la conversion en nombre 
+//console.log(!"hello"); //false psk N'importe quelle chaîne de caractères non vide, comme "hello", "0", ou "false". est VRAI
+//console.log(+false); // 0 psk "+" force la conversion en nombre 
 
 
+// Question 5
+console.log("5" + 3); // 53
+console.log("5" - 3); //2
+// Whats the output ? 
+//L'opérateur + fait de la concaténation si l'un des opérandes est une chaîne de caractères ("5" dans ce cas).
+//L'opérateur - force JavaScript à traiter les deux opérandes comme des nombres.
